@@ -1,0 +1,10 @@
+C:\Users\고상민\source\repos\MyForum\MyForum\bin\Debug\MyForum.exe.config
+C:\Users\고상민\source\repos\MyForum\MyForum\bin\Debug\MyForum.exe
+C:\Users\고상민\source\repos\MyForum\MyForum\bin\Debug\MyForum.pdb
+C:\Users\고상민\source\repos\MyForum\MyForum\obj\Debug\MyForum.csproj.AssemblyReference.cache
+C:\Users\고상민\source\repos\MyForum\MyForum\obj\Debug\MyForum.Form1.resources
+C:\Users\고상민\source\repos\MyForum\MyForum\obj\Debug\MyForum.Properties.Resources.resources
+C:\Users\고상민\source\repos\MyForum\MyForum\obj\Debug\MyForum.csproj.GenerateResource.cache
+C:\Users\고상민\source\repos\MyForum\MyForum\obj\Debug\MyForum.csproj.CoreCompileInputs.cache
+C:\Users\고상민\source\repos\MyForum\MyForum\obj\Debug\MyForum.exe
+C:\Users\고상민\source\repos\MyForum\MyForum\obj\Debug\MyForum.pdb

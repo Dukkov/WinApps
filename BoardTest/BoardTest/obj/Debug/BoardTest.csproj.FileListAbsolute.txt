@@ -1,0 +1,10 @@
+C:\Users\고상민\source\repos\BoardTest\BoardTest\bin\Debug\BoardTest.exe.config
+C:\Users\고상민\source\repos\BoardTest\BoardTest\bin\Debug\BoardTest.exe
+C:\Users\고상민\source\repos\BoardTest\BoardTest\bin\Debug\BoardTest.pdb
+C:\Users\고상민\source\repos\BoardTest\BoardTest\bin\Debug\Bogus.dll
+C:\Users\고상민\source\repos\BoardTest\BoardTest\bin\Debug\Bogus.xml
+C:\Users\고상민\source\repos\BoardTest\BoardTest\obj\Debug\BoardTest.csproj.AssemblyReference.cache
+C:\Users\고상민\source\repos\BoardTest\BoardTest\obj\Debug\BoardTest.csproj.CoreCompileInputs.cache
+C:\Users\고상민\source\repos\BoardTest\BoardTest\obj\Debug\BoardTest.csproj.CopyComplete
+C:\Users\고상민\source\repos\BoardTest\BoardTest\obj\Debug\BoardTest.exe
+C:\Users\고상민\source\repos\BoardTest\BoardTest\obj\Debug\BoardTest.pdb
