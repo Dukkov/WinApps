@@ -1,0 +1,10 @@
+E:\MyExplorer\MainForm\bin\Debug\MainForm.exe.config
+E:\MyExplorer\MainForm\bin\Debug\MainForm.exe
+E:\MyExplorer\MainForm\bin\Debug\MainForm.pdb
+E:\MyExplorer\MainForm\obj\Debug\MyExplorer.csproj.AssemblyReference.cache
+E:\MyExplorer\MainForm\obj\Debug\MainForm.FormMain.resources
+E:\MyExplorer\MainForm\obj\Debug\MainForm.Properties.Resources.resources
+E:\MyExplorer\MainForm\obj\Debug\MyExplorer.csproj.GenerateResource.cache
+E:\MyExplorer\MainForm\obj\Debug\MyExplorer.csproj.CoreCompileInputs.cache
+E:\MyExplorer\MainForm\obj\Debug\MainForm.exe
+E:\MyExplorer\MainForm\obj\Debug\MainForm.pdb

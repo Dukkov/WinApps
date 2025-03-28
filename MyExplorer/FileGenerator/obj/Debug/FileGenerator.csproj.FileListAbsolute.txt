@@ -1,0 +1,16 @@
+E:\MyExplorer\FileGenerator\bin\Debug\FileGenerator.exe.config
+E:\MyExplorer\FileGenerator\bin\Debug\FileGenerator.exe
+E:\MyExplorer\FileGenerator\bin\Debug\FileGenerator.pdb
+E:\MyExplorer\FileGenerator\bin\Debug\EntityFramework.dll
+E:\MyExplorer\FileGenerator\bin\Debug\EntityFramework.SqlServer.dll
+E:\MyExplorer\FileGenerator\bin\Debug\System.Data.SQLite.dll
+E:\MyExplorer\FileGenerator\bin\Debug\System.Data.SQLite.EF6.dll
+E:\MyExplorer\FileGenerator\bin\Debug\System.Data.SQLite.Linq.dll
+E:\MyExplorer\FileGenerator\bin\Debug\EntityFramework.xml
+E:\MyExplorer\FileGenerator\bin\Debug\EntityFramework.SqlServer.xml
+E:\MyExplorer\FileGenerator\bin\Debug\System.Data.SQLite.xml
+E:\MyExplorer\FileGenerator\obj\Debug\FileGenerator.csproj.AssemblyReference.cache
+E:\MyExplorer\FileGenerator\obj\Debug\FileGenerator.csproj.CoreCompileInputs.cache
+E:\MyExplorer\FileGenerator\obj\Debug\FileGenerator.csproj.CopyComplete
+E:\MyExplorer\FileGenerator\obj\Debug\FileGenerator.exe
+E:\MyExplorer\FileGenerator\obj\Debug\FileGenerator.pdb
