@@ -125,11 +125,9 @@ namespace FileGenerator
             }
         }
 
-        /// <summary>
-        /// Dispose 메서드.
-        /// </summary>
         public void Dispose()
         {
+            createCommand.Dispose();
             insertCommand.Dispose();
             dbConnection.Dispose();
         }
