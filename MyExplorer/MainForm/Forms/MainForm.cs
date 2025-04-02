@@ -104,6 +104,10 @@ namespace MainForm
             e.Item = item;
         }
 
+        /// <summary>
+        /// 폼 로드시 해상도에 맞춰 폼 크기 동적 조절
+        /// </summary>
+        /// <param name="e"></param>
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
