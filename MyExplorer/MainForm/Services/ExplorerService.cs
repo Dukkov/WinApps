@@ -16,7 +16,6 @@ namespace MainForm.Services
         private static readonly string dbPath = Path.Combine("..", "..", "..", "file.db");
         public List<DirectoryTreeNode> DirectoryTree { get; private set; }
         public List<FileItemDto> FileCache { get; private set; }
-        public List<FileItemDto> ProcessedFileList { get; set; }
 
         public ExplorerService()
         {
@@ -25,23 +24,49 @@ namespace MainForm.Services
             RefreshFileCache(ROOT_ID);
         }
 
+        /// <summary>
+        /// 디렉토리 트리를 갱신하는 메서드.
+        /// </summary>
         public void RefreshDirectoryTree()
         {
             DirectoryTree = DirectoryTreeService
                 .BuildDirectoryTree(fileRepository.SelectItems(null, directoriesOnly: true));
         }
 
+        /// <summary>
+        /// 파일목록 캐시를 갱신하는 메서드.
+        /// </summary>
+        /// <param name="parentId"></param>
         public void RefreshFileCache(int parentId)
         {
-            FileCache = fileRepository.SelectItems(parentId);
+            FileCache = FileCacheService
+                .BuildFileCache(fileRepository.SelectItems(parentId));
         }
 
-        public void RefreshProcessedFileList()
+        /// <summary>
+        /// 파일목록 캐시를 정렬하는 메서드.
+        /// </summary>
+        public void SortFileCache(Func<FileItemDto, object> field, bool descending = false)
         {
-            ProcessedFileList = FileCache
-                .OrderByDescending(f => f.IsDirectory)
-                .ThenBy(f => f.Name)
-                .ToList();
+            FileCache = FileCacheService
+                .SortFiles(FileCache, field, descending);
+        }
+
+        /// <summary>
+        /// 파일목록 캐시를 검색어로 필터링하는 메서드.
+        /// </summary>
+        public void FilterFileCache(string keyword)
+        {
+            FileCache = FileCacheService
+                .FilterFiles(FileCache, keyword);
+        }
+
+        /// <summary>
+        /// DB연결 해제 메서드.
+        /// </summary>
+        public void Dispose()
+        {
+            fileRepository.Dispose();
         }
     }
 }

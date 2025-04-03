@@ -35,7 +35,6 @@ namespace MainForm
             this.buttonToBack = new System.Windows.Forms.Button();
             this.buttonToForward = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.buttonToUpward = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.listView1 = new System.Windows.Forms.ListView();
@@ -44,6 +43,7 @@ namespace MainForm
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.buttonToUpward = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -120,16 +120,6 @@ namespace MainForm
             this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
-            // buttonToUpward
-            // 
-            this.buttonToUpward.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonToUpward.Location = new System.Drawing.Point(69, 10);
-            this.buttonToUpward.Name = "buttonToUpward";
-            this.buttonToUpward.Size = new System.Drawing.Size(27, 23);
-            this.buttonToUpward.TabIndex = 6;
-            this.buttonToUpward.Text = "↑";
-            this.buttonToUpward.UseVisualStyleBackColor = true;
-            // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -150,8 +140,12 @@ namespace MainForm
             // treeView1
             // 
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView1.FullRowSelect = true;
+            this.treeView1.HideSelection = false;
+            this.treeView1.HotTracking = true;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
+            this.treeView1.ShowLines = false;
             this.treeView1.Size = new System.Drawing.Size(180, 369);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TreeView1_AfterSelect);
@@ -174,6 +168,7 @@ namespace MainForm
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.VirtualMode = true;
+            this.listView1.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.ListView1_ColumnClick);
             this.listView1.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.ListView1_RetrieveVirtualItem);
             // 
             // columnHeader1
@@ -216,6 +211,16 @@ namespace MainForm
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(794, 44);
             this.tableLayoutPanel2.TabIndex = 6;
+            // 
+            // buttonToUpward
+            // 
+            this.buttonToUpward.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonToUpward.Location = new System.Drawing.Point(69, 10);
+            this.buttonToUpward.Name = "buttonToUpward";
+            this.buttonToUpward.Size = new System.Drawing.Size(27, 23);
+            this.buttonToUpward.TabIndex = 6;
+            this.buttonToUpward.Text = "↑";
+            this.buttonToUpward.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
