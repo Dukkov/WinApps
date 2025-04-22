@@ -1,7 +1,0 @@
-C:\Users\고상민\source\repos\ScratchPad\ScratchPad\bin\Debug\ScratchPad.exe.config
-C:\Users\고상민\source\repos\ScratchPad\ScratchPad\bin\Debug\ScratchPad.exe
-C:\Users\고상민\source\repos\ScratchPad\ScratchPad\bin\Debug\ScratchPad.pdb
-C:\Users\고상민\source\repos\ScratchPad\ScratchPad\obj\Debug\ScratchPad.csproj.AssemblyReference.cache
-C:\Users\고상민\source\repos\ScratchPad\ScratchPad\obj\Debug\ScratchPad.csproj.CoreCompileInputs.cache
-C:\Users\고상민\source\repos\ScratchPad\ScratchPad\obj\Debug\ScratchPad.exe
-C:\Users\고상민\source\repos\ScratchPad\ScratchPad\obj\Debug\ScratchPad.pdb

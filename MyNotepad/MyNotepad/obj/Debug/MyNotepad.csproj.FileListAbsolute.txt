@@ -1,0 +1,9 @@
+E:\WinApps\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe.config
+E:\WinApps\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe
+E:\WinApps\MyNotepad\MyNotepad\bin\Debug\MyNotepad.pdb
+E:\WinApps\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.AssemblyReference.cache
+E:\WinApps\MyNotepad\MyNotepad\obj\Debug\MyNotepad.Properties.Resources.resources
+E:\WinApps\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.GenerateResource.cache
+E:\WinApps\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.CoreCompileInputs.cache
+E:\WinApps\MyNotepad\MyNotepad\obj\Debug\MyNotepad.exe
+E:\WinApps\MyNotepad\MyNotepad\obj\Debug\MyNotepad.pdb

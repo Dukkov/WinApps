@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WinApps\\MyExplorer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E56789-AB4C-4DE0-90DC-B7D84B162177}|MainForm\\MyExplorer.csproj|e:\\winapps\\myexplorer\\mainform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E56789-AB4C-4DE0-90DC-B7D84B162177}|MainForm\\MyExplorer.csproj|solutionrelative:mainform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E56789-AB4C-4DE0-90DC-B7D84B162177}|MainForm\\MyExplorer.csproj|e:\\winapps\\myexplorer\\mainform\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E56789-AB4C-4DE0-90DC-B7D84B162177}|MainForm\\MyExplorer.csproj|solutionrelative:mainform\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D168A3F7-2D43-404B-8573-AC9F06AE1CDA}|FileGenerator\\FileGenerator.csproj|e:\\winapps\\myexplorer\\filegenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D168A3F7-2D43-404B-8573-AC9F06AE1CDA}|FileGenerator\\FileGenerator.csproj|solutionrelative:filegenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\WinApps\\MyExplorer\\MainForm\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm\\Forms\\MainForm.cs",
+              "ToolTip": "E:\\WinApps\\MyExplorer\\MainForm\\Forms\\MainForm.cs",
+              "RelativeToolTip": "MainForm\\Forms\\MainForm.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T06:36:16.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\WinApps\\MyExplorer\\FileGenerator\\Program.cs",
+              "RelativeDocumentMoniker": "FileGenerator\\Program.cs",
+              "ToolTip": "E:\\WinApps\\MyExplorer\\FileGenerator\\Program.cs",
+              "RelativeToolTip": "FileGenerator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T06:35:26.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\WinApps\\MyExplorer\\MainForm\\Program.cs",
+              "RelativeDocumentMoniker": "MainForm\\Program.cs",
+              "ToolTip": "E:\\WinApps\\MyExplorer\\MainForm\\Program.cs",
+              "RelativeToolTip": "MainForm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T06:11:14.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
